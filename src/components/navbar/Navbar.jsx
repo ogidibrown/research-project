@@ -41,13 +41,13 @@ const pathname = usePathname()
      
 
   return (
-    <nav className='h-[100px] flex justify-between items-center mt-2 '>
+    <nav className='h-[100px] flex justify-between items-center mt-2'>
         <Link href="/" ><Image src={Logo} height={180} width={200} className=''/></Link>
         <div className='flex items-center gap-[20px]'>
             {Links.map(({link, title, id})=>(
-                <Link key={id} href={link} className={`${pathname==link ? "border-[#5F45CC] border-b-4" : "" } w-[80px] h-[35px] p-1 flex items-center justify-center`} >{title}</Link>
+                <Link key={id} href={link} className={`${pathname===link ? "border-[#5F45CC] border-b-4" : "" } w-[80px] h-[35px] p-1 flex items-center justify-center`} >{title}</Link>
             ))}
-            <button className='p-[5px] border-none bg-[#5F45CC] text-white rounded-[3px] w-[70px]'>Login</button>
+            {/* <button className='p-[5px] border-none bg-[#5F45CC] text-white rounded-[3px] w-[70px]'>Login</button> */}
         </div>
     </nav>
   )
