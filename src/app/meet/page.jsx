@@ -13,10 +13,10 @@ const MeetPage = () => {
   return (
     <div className='flex flex-col gap-4'>
         <div>
-            <h1 className='text-[#5F45CC] text-[45px] text-center flex justify-center items-center'>Our Team</h1>
+            <h1 className='text-[#5F45CC] md:text-[45px] text-[30px] text-center flex justify-center items-center mt-4'>Our Team</h1>
         </div>
         <div className=' grid md:grid-cols-4 items-center gap-3 p-2'>
-             <div className='flex flex-col items-center justify-center  text-center md:mt-3  p-2 gap-3'>
+             <div className='flex flex-col items-center justify-center  text-center md:mb-3  p-2 gap-3'>
                 <Image src={Lorna} width={160} height={120} className='rounded-[100%] bg-[#bbb]' />
 
                 <h1 className='font-bold text-[20px]  '>Prof Lorna Paul</h1>
@@ -28,10 +28,10 @@ const MeetPage = () => {
                 </p> */}
             </div>
            
-            <div className='flex flex-col items-center justify-center  text-center md:mb-2  p-2 gap-3'>
+            <div className='flex flex-col items-center justify-center  text-center md:mt-4  p-2 gap-3'>
                 <Image src={Fred} width={150} height={120} className='rounded-[100%] bg-[#bbb]' />
                 <h1 className='font-bold text-[20px]  '>Prof Stephen Fred Sarfo</h1>
-                <span className='text-[#5F45CC] text-[18px]'>Principal Investigator/Neurologist at KATH & KNUST</span>
+                <span className='text-[#5F45CC] text-[18px]'>Principal Investigator/Neurologist at Komfo Anokye Teaching Hospital & KNUST</span>
                 {/* <p>
                     Empower residents 
                     to maintain their potential and sense of 
@@ -61,7 +61,7 @@ const MeetPage = () => {
             </div>
             
             
-            <div className='flex flex-col items-center justify-center md:mb-3 text-center gap-3  p-2'>
+            <div className='flex flex-col items-center justify-center md:mb-[50px] text-center gap-3  p-2'>
                 <Image src={Katie} width={150} height={120} className='rounded-[100%] md:mt-[20px] bg-[#bbb]' />
                 <h1 className='font-bold text-[20px]'>Dr. Katie Thompson</h1>
                 <span className='flex items-center justify-center text-[#5F45CC] text-[18px]'>Occupational Therapist & Systematic Reviewer (NESSIE)</span>
@@ -74,7 +74,7 @@ const MeetPage = () => {
             <div className='flex flex-col items-center justify-center text-center  gap-3 p-2'>
                 <Image src={Eric} width={150} height={120} className='rounded-[100%] bg-[#bbb]' />
                 <h1 className='font-bold text-[20px]'> Eric Opoku</h1>
-                <span className='text-[#5F45CC] text-[18px]'>Occupational Therapist (Glasgow Caledonian University)</span>
+                <span className='text-[#5F45CC] text-[18px]'>Occupational Therapist <br/> (Glasgow Caledonian University)</span>
                 {/* <p> Collaborates with PI and institution 
                     to respond to any audit findings and 
                     implement approved recommendations.
@@ -84,7 +84,7 @@ const MeetPage = () => {
             <div className='flex flex-col items-center justify-center text-center   gap-3 p-2'>
                 <Image src={Shadrack} width={150} height={120} className='rounded-[100%] bg-[#bbb]' />
                 <h1 className='font-bold text-[20px]  '> Shadrack Osei Asibey</h1>
-                <span className='text-[#5F45CC] text-[18px]'>Research Coordinator/Assistant (KATH)</span>
+                <span className='text-[#5F45CC] text-[18px]'>Research Coordinator/Assistant (Komfo Anokye Teaching Hospital)</span>
                 {/* <p> Collaborates with PI and institution 
                     to respond to any audit findings and 
                     implement approved recommendations.
@@ -93,7 +93,7 @@ const MeetPage = () => {
             <div className='flex flex-col items-center justify-center  text-center   p-2 gap-3'>
                 <Image src={Derrick} width={150} height={120} className='rounded-[100%] bg-[#bbb]' />
                 <h1 className='font-bold text-[20px] '>Derrick Antwi</h1>
-                <span className='text-[#5F45CC] text-[18px]'>Senior Occupational Therapist (KATH)</span>
+                <span className='text-[#5F45CC] text-[18px]'>Senior Occupational Therapist (Komfo Anokye Teaching Hospital)</span>
                 {/* <p>
                     Empower residents 
                     to maintain their potential and sense of 
