@@ -1,4 +1,4 @@
-import Button from '@/components/Button/Button'
+import Button from '@/components/button/Button'
 import Image from 'next/image'
 import HeroImg from 'public/hero.png'
 

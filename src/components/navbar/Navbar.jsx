@@ -54,7 +54,7 @@ const toggleNav = ()=>{
 
   return (
     <nav className='h-[100px] flex justify-between items-center mt-2'>
-        <Link href="/" ><Image src={Logo} height={130} width={160} className='md:h-[170px] md:w-[250px] md:p-2 '/></Link>
+        <Link href="/" ><Image src={Logo} height={130} width={160} alt='logo' className='md:h-[170px] md:w-[250px] md:p-2 '/></Link>
         
             <FaBars  onClick={toggleNav} className={ ` ${open ? '':''} md:hidden h-[30px] w-[40px] cursor-pointer`}/>
         
