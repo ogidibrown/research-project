@@ -11,7 +11,7 @@ export default function Home() {
         Ghana - A Global Challenge Research Network 
         </h1>
         <p className='text-[18px] font-normal text-[#5F45CC]'>Read more on the about us page</p>
-        <Button className='self-center ' text='Read More' url='/about' />
+        <Button className='flex justify-center items-center mt-3' text='Read More' url='/about' />
       </div>
       <div className='p-2'>
         <Image src={HeroImg} width={500} height={500} alt='hero image' className='object-cover w-[300px] h-[300px] md:h-full md:w-full'  />
