@@ -63,7 +63,7 @@ const toggleNav = ()=>{
                     <Link key={id} href={link}  className={`${pathname===link ? "border-[#5F45CC] border-b-4" : ""  }  w-[90px] h-[35px] p-1 flex flex-col md:flex-row  items-center justify-center`} >{title}</Link>
                 ))}
                 
-                {/* <button className='p-[5px] border-none bg-[#5F45CC] text-white rounded-[3px] w-[70px]'>Login</button> */}
+                {/* <button className='p-[5px] border-none bg-[#5F45CC] text-white hahahahahahahaha rounded-[3px] w-[70px]'>Login</button> */}
             </div>
         
 
